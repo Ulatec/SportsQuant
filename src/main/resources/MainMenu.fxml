@@ -1,0 +1,15 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<VBox xmlns:fx="http://javafx.com/fxml">
+    <Label fx:id="dateTime" textFill="WHITE" text="BLAH">
+        <font>
+            <Font name="Segoe UI Black" size="27.0"/>
+        </font>
+    </Label>
+    <Label fx:id="date" textFill="WHITE">
+        <font>
+            <Font name="Segoe UI Semibold" size="19.0"/>
+        </font>
+    </Label>
+</VBox>
